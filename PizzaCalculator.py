@@ -1,13 +1,14 @@
-# Piet besteld 6 pizza's, 2 small, 2 medium en 2 large bij de Domino's, hoeveel kost dit?
+# Richie van der Heij | Opdracht Pizza Calculator
+# Maak de Python applicatie "Pizza Calculator" in pizzaCalculator.py in de map van-input-naar-output
+# De klant kan een keuze maken uit 3 afmetingen pizza's, namelijk: small, medium en large. Voor elke afmeting wordt er gevraagd hoeveel pizza's de klant wil.
 
-print("Piet besteld 6 pizza's: 2 small, 2 medium en 2 large bij de Domino's, wat zijn de kosten? reken uit:")
-print("Hoeveel small pizza's wilt Piet?:")
+print("Hoeveel small pizza's wilt de klant?:")
 pizzasmall = input("Aantal small pizza's: ")
 
-print("Hoeveel medium pizza's wilt Piet?:")
+print("Hoeveel medium pizza's wilt de klant?:")
 pizzamedium = input("Aantal medium pizza's: ")
 
-print("Hoeveel large pizza's wilt Piet?:")
+print("Hoeveel large pizza's wilt de klant?:")
 pizzalarge = input("Aantal large pizza's: ")
 
 
@@ -24,4 +25,4 @@ lunchTotal = price
 
 lunchTotal = int(lunchTotal)
 
-print("De 6 pizza's kost je bij de Domino's", lunchTotal, "euro, voor de small pizza", pizzasmall, "voor de medium pizza ", pizzamedium, "euro en voor de large pizza", pizzalarge, "euro")
+print("De pizza's kost je bij de Domino's", lunchTotal, "euro, voor de small pizza", pizzasmall, "euro, voor de medium pizza", pizzamedium, "euro en voor de large pizza", pizzalarge, "euro")
